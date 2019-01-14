@@ -11,7 +11,7 @@ const fetchVideoInfo = require("youtube-info");
 const initcmd = botSettings.initcmd;
 const ytApiKey = botSettings.ytApiKey;
 const youtube = new YouTube(ytApiKey);
-const botkahrba= ['ID']; // الايدي بتاعك انتا ووالادارة
+const botkahrba= ['484869429327560704']; // الايدي بتاعك انتا ووالادارة
 // By : Kahrba. || تم التطوير من قبل كههربا
 const bot = new Discord.Client({
 	disableEveryone: true
@@ -37,7 +37,7 @@ bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
     console.log(`in ${bot.guilds.size} servers `)
     console.log(`[Kahrba] ${bot.users.size}`)
-    bot.user.setStatus("idle")
+    bot.user.setStatus("online")
 // By : Kahrba. || تم التطوير من قبل كههربا
 });// By : Kahrba. || تم التطوير من قبل كههربا
 // By : Kahrba. || تم التطوير من قبل كههربا
@@ -61,7 +61,7 @@ bot.on('message', message => {
 
 bot.on('ready', () => {
 	// -
-  bot.user.setActivity("كههربا , <3",{type: 'WATCHING'});
+  bot.user.setActivity("1help",{type: 'WATCHING'});
   console.log('            ╔[════════════]╗');
   console.log('              Bot Is Online');
   console.log('            ╚[════════════]╝');
@@ -575,7 +575,7 @@ function shuffle(queue) {
 ┃┃┃┗┫┏┓┃┃┃┃┃┃┗┛┃┏┓┃
 ┗┛┗━┻┛┗┻┛┗┻┛┗━━┻┛┗┛
 Bot Version : ${version}
-Developer By : <@286088294234718209>
+Developer By : <@!484869429327560704>
 **`)
    message.channel.send({embed});
 // By : Kahrba. || تم التطوير من قبل كههربا
@@ -672,7 +672,7 @@ bot.on('message', message => {// By : Kahrba. || تم التطوير من قبل
       message.channel.send(` ☑ Client Activity Now Is : \`Listening ${argresult} \` `)
   } else
   if (message.content.startsWith(initcmd + 'st')) {// By : Kahrba. || تم التطوير من قبل كههربا
-    bot.user.setGame(argresult, "https://www.twitch.tv/i_kahrba999");
+    bot.user.setGame(argresult, "https://www.twitch.tv/1help");
      message.channel.send(` ☑ Client Activity Now Is : \`Streaming ${argresult} \` `)
   }
   if (message.content.startsWith(initcmd + 'setname')) {// By : Kahrba. || تم التطوير من قبل كههربا
